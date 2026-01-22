@@ -42,3 +42,11 @@ lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 for i in lista:
     print(i ** 2)
 # %%
+# Dada a lista ["Python", "Java", "C++", "JavaScript"], remova o item "C++" e adicione "Ruby".
+lista_linguagens = ["Python", "Java", "C++", "JavaScript"]
+
+lista_linguagens.remove("C++")
+print(lista_linguagens)
+lista_linguagens.append('Ruby')
+print(lista_linguagens)
+# %%
